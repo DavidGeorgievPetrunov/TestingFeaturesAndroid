@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="toppings">
+        <item>Onion</item>
+        <item>Tomato</item>
+        <item>Cherries</item>
+    </string-array>
+</resources>

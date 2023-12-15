@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RadioGroup android:id="@+id/orientation"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+        <RadioButton
+            android:id="@+id/horizontal"
+            android:text="horizontal" />
+        <RadioButton
+            android:id="@+id/vertical"
+            android:text="vertical" />
+    </RadioGroup>
+    <RadioGroup android:id="@+id/gravity"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+        <RadioButton
+            android:id="@+id/left"
+            android:text="left" />
+        <RadioButton
+            android:id="@+id/center"
+            android:text="center" />
+        <RadioButton
+            android:id="@+id/right"
+            android:text="right" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Return to Start Fragment"
+        android:onClick="returnToStartFragment" />
+
+</LinearLayout>
